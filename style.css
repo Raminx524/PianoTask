@@ -20,11 +20,11 @@ body {
 }
 .bTile:hover {
   box-shadow: 3px 3px #725c5c;
-  background-image: radial-gradient(#000, #000, #9e9c9c);
+  background-image: linear-gradient(to right, #000, #000, #5e5e5e);
 }
 .wTile:hover {
   box-shadow: 2px -2px #838282;
-  background-image: radial-gradient(#fff, #fff, #aaa8a8);
+  background-image: linear-gradient(to right, #fff, #fff, #aaa8a8);
 }
 .wTile:hover + p {
   opacity: 1;
