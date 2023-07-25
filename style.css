@@ -7,6 +7,7 @@ body {
   background-color: rgb(255, 255, 255);
   border: solid 1px #000;
   border-radius: 8px;
+  position: relative;
 }
 .bTile {
   width: 245px;
@@ -15,10 +16,26 @@ body {
   border-radius: 8px;
   margin-top: 20px;
   position: absolute;
+  z-index: 1;
 }
 .bTile:hover {
-  box-shadow: 1px 1px #838282;
+  box-shadow: 2px 1px #725c5c;
+  background-image: radial-gradient(#000, #000, #9e9c9c);
 }
 .wTile:hover {
   box-shadow: 2px -2px #838282;
+  background-image: radial-gradient(#fff, #fff, #aaa8a8);
+}
+.wTile:hover + p {
+  opacity: 1;
+}
+p {
+  opacity: 0;
+  font-size: 40px;
+  font-weight: bold;
+  float: right;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 32rem;
+  color: #fff;
 }
