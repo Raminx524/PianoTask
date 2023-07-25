@@ -19,7 +19,7 @@ body {
   z-index: 1;
 }
 .bTile:hover {
-  box-shadow: 2px 1px #725c5c;
+  box-shadow: 3px 3px #725c5c;
   background-image: radial-gradient(#000, #000, #9e9c9c);
 }
 .wTile:hover {
